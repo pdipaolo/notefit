@@ -253,10 +253,8 @@
 				5D5940A42902F85300B38D69 /* HomeViewController.swift */,
 				5D5940A82902F87900B38D69 /* HomeModel.swift */,
 				5D5940A62902F86800B38D69 /* HomeViewModel.swift */,
-				5D5940D72909854B00B38D69 /* PlanCollectionViewCell.swift */,
-				5D5940D82909854B00B38D69 /* PlanCollectionViewCell.xib */,
-				5D5940DB2909878C00B38D69 /* InfoCollectionViewCell.swift */,
-				5D5940DC2909878C00B38D69 /* InfoCollectionViewCell.xib */,
+				5D679DB0290A969600B06285 /* PlanCollection */,
+				5D679DB1290A96AE00B06285 /* InfoCollection */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -426,6 +424,24 @@
 				5D61441328FB094300BE5935 /* notefit_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "notefit WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		5D679DB0290A969600B06285 /* PlanCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5D5940D82909854B00B38D69 /* PlanCollectionViewCell.xib */,
+				5D5940D72909854B00B38D69 /* PlanCollectionViewCell.swift */,
+			);
+			path = PlanCollection;
+			sourceTree = "<group>";
+		};
+		5D679DB1290A96AE00B06285 /* InfoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5D5940DB2909878C00B38D69 /* InfoCollectionViewCell.swift */,
+				5D5940DC2909878C00B38D69 /* InfoCollectionViewCell.xib */,
+			);
+			path = InfoCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
