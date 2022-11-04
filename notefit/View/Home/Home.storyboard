@@ -90,7 +90,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.22485205139776676" green="0.22485205139776676" blue="0.22485205139776676" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.22352941176470587" green="0.22352941176470587" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6ZV-cC-4bA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Elc-4u-ZgI"/>
                             <constraint firstItem="6ZV-cC-4bA" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="37" id="SMG-02-1rd"/>
