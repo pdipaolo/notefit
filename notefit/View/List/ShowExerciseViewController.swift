@@ -9,23 +9,19 @@ import UIKit
 
 class ShowExerciseViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var exerciseImageView: UIImageView!
     var exercise: Exercise?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print(exercise)
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        guard let bodyPart = exercise?.bodyPart, let url = exercise?.gifUrl, let name =  exercise?.name else {return}
+        nameLabel.text = name
+        typeLabel.text = bodyPart
+//        Todo inserire immagine
     }
-    */
-
 }
