@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D082095291ABD00003BD6E4 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D082093291ABD00003BD6E4 /* ItemTableViewCell.swift */; };
+		5D082096291ABD00003BD6E4 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D082094291ABD00003BD6E4 /* ItemTableViewCell.xib */; };
+		5D082099291ABD1B003BD6E4 /* PlusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D082097291ABD1B003BD6E4 /* PlusTableViewCell.swift */; };
+		5D08209A291ABD1B003BD6E4 /* PlusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D082098291ABD1B003BD6E4 /* PlusTableViewCell.xib */; };
 		5D5940952902F53100B38D69 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5940942902F53100B38D69 /* Tabbar.swift */; };
 		5D5940972902F5B400B38D69 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5940962902F5B400B38D69 /* TabbarViewController.swift */; };
 		5D59409A2902F6D100B38D69 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5940992902F6D100B38D69 /* Home.storyboard */; };
@@ -130,6 +134,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D082093291ABD00003BD6E4 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		5D082094291ABD00003BD6E4 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		5D082097291ABD1B003BD6E4 /* PlusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusTableViewCell.swift; sourceTree = "<group>"; };
+		5D082098291ABD1B003BD6E4 /* PlusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlusTableViewCell.xib; sourceTree = "<group>"; };
 		5D5940942902F53100B38D69 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		5D5940962902F5B400B38D69 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		5D5940992902F6D100B38D69 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -276,6 +284,10 @@
 				5D59409D2902F74E00B38D69 /* NewWorkout.storyboard */,
 				5D5940C22902F9D400B38D69 /* NewWorkoutViewController.swift */,
 				5D5940B42902F95700B38D69 /* NewWorkoutModel.swift */,
+				5D082093291ABD00003BD6E4 /* ItemTableViewCell.swift */,
+				5D082097291ABD1B003BD6E4 /* PlusTableViewCell.swift */,
+				5D082098291ABD1B003BD6E4 /* PlusTableViewCell.xib */,
+				5D082094291ABD00003BD6E4 /* ItemTableViewCell.xib */,
 				5D5940B22902F94600B38D69 /* NewWorkoutViewModel.swift */,
 			);
 			path = NewWorkout;
@@ -642,7 +654,9 @@
 				5D5940A02902F75F00B38D69 /* List.storyboard in Resources */,
 				5D59409E2902F74E00B38D69 /* NewWorkout.storyboard in Resources */,
 				5D5940A22902F76900B38D69 /* Settings.storyboard in Resources */,
+				5D082096291ABD00003BD6E4 /* ItemTableViewCell.xib in Resources */,
 				5D5940DE2909878C00B38D69 /* InfoCollectionViewCell.xib in Resources */,
+				5D08209A291ABD1B003BD6E4 /* PlusTableViewCell.xib in Resources */,
 				5D6143C328FB094000BE5935 /* Assets.xcassets in Resources */,
 				5D5940DA2909854B00B38D69 /* PlanCollectionViewCell.xib in Resources */,
 				5D6143C128FB093C00BE5935 /* Main.storyboard in Resources */,
@@ -711,7 +725,9 @@
 				5D5940BA2902F99500B38D69 /* ListViewModel.swift in Sources */,
 				5D5940A72902F86800B38D69 /* HomeViewModel.swift in Sources */,
 				5D5940AC2902F8D400B38D69 /* WorkoutViewController.swift in Sources */,
+				5D082095291ABD00003BD6E4 /* ItemTableViewCell.swift in Sources */,
 				5D5940AE2902F90A00B38D69 /* WorkoutViewModel.swift in Sources */,
+				5D082099291ABD1B003BD6E4 /* PlusTableViewCell.swift in Sources */,
 				5D5940B52902F95700B38D69 /* NewWorkoutModel.swift in Sources */,
 				5D5940C52902F9E000B38D69 /* ListViewController.swift in Sources */,
 				5D5940B32902F94600B38D69 /* NewWorkoutViewModel.swift in Sources */,
